@@ -1,0 +1,131 @@
+.recentOrderMain {
+  border-radius: 10px;
+  background: var(
+    rgb(188, 100, 100),
+    linear-gradient(167deg, #fcfcfc 1.99%, #fcfbfb 4.17%, #ffeaea 100%)
+  );
+
+  box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.1);
+  width: 45%;
+  box-sizing: border-box;
+  padding: 20px 30px;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.heading {
+  color: #2d3845;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.smallText {
+  color: #979797;
+  /* Text/Text Regular 3 */
+  font-size: 0.875rem;
+  font-family: Inter;
+}
+.vertical {
+  border-left: 1px solid green;
+  height: 8rem;
+}
+.mainCirclePo {
+  position: absolute;
+  top: 26.4%;
+  left: 66%;
+}
+.rightCircle {
+  width: 1.2rem;
+  height: 1.25rem;
+  border-radius: 40px;
+  background-color: #2f4c8f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.rightInnerCircle {
+  background-color: #fdfafa;
+  width: 0.72rem;
+  height: 0.75rem;
+  border-radius: 40px;
+}
+.mainVartical{
+  position: absolute;
+  top: 28%;
+}
+.vertical{
+  position: relative;
+}
+
+.mainCirclePo1 {
+  position: absolute;
+  top: 34.2%;
+  left: 66.1%;
+}
+.rightCircle1 {
+  width: 1.2rem;
+  height: 1.25rem;
+  border-radius: 40px;
+  background-color: #2f4c8f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.rightInnerCircle1 {
+  background-color: #fdfafa;
+  width: 0.72rem;
+  height: 0.75rem;
+  border-radius: 40px;
+}
+
+.mainCirclePo2 {
+  position: absolute;
+  top: 41.5%;
+  left: 66.1%;
+}
+.rightCircle2 {
+  width: 1.2rem;
+  height: 1.25rem;
+  border-radius: 40px;
+  background-color: #2f4c8f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.rightInnerCircle2 {
+  background-color: #fdfafa;
+  width: 0.72rem;
+  height: 0.75rem;
+  border-radius: 40px;
+}
+
+.rightDivLeftRight {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.big {
+  color: hsl(213, 21%, 22%);
+  /* Text/Text Regular 3 */
+  font-size: 0.875rem;
+  font-family: Inter;
+  font-weight: 600;
+}
+.small {
+  color: #979797;
+  /* Text/Text Regular 3 */
+  font-size: 0.875rem;
+  font-family: Inter;
+}
+.lineH {
+  line-height: 1.625rem;
+}
+.flexDire {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

@@ -1,0 +1,65 @@
+.pieChartMain {
+  width: 55%;
+  height: 18.625rem;
+  border-radius: 10px;
+  gap: 1rem;
+  background: var(
+    --light-blue-gradient,
+    linear-gradient(350deg, #e5ffff 0%, #fcfcfc 100%)
+  );
+  box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.pieHead {
+  color: var(--theme-color-dark-blue, #2d3845);
+  font-size: 1.5rem;
+  font-family: Inter;
+  font-weight: 700;
+}
+.pieChild {
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.pieChild1 {
+  width: 40%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.headCircle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.circle {
+  width: 2rem;
+  height: 1.25rem;
+  border-radius: 40px;
+  background-color: #2f4c8f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.innerCircle {
+  background-color: #fdfafa;
+  width: 0.72rem;
+  height: 0.75rem;
+  border-radius: 40px;
+}
+.paraText {
+  color: #2d3845;
+  font-size: 1.125rem;
+  font-family: Inter;
+}
+.paraNumb {
+  color: #2d3845;
+  text-align: right;
+  font-size: 1.125rem;
+  font-family: Inter;
+  font-weight: 700;
+}

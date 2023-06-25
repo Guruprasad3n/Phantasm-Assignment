@@ -1,0 +1,55 @@
+.barChartMain {
+  /* width: 100%; */
+  display: flex;
+  /* border: 1px solid blue; */
+  justify-content: space-between;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: #fcfcfc;
+  box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.1);
+}
+.barChartChild1 {
+  /* border: 1px solid red; */
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.barChartChild2 {
+  width: 70%;
+}
+.productStatic {
+  color: #2d3845;
+  font-size: 1.5rem;
+  font-family: Inter;
+  font-weight: 700;
+}
+.total {
+  color: #979797;
+  font-size: 0.9rem;
+  font-family: Inter;
+}
+.price {
+  color: #2d3845;
+  font-size: 1.9rem;
+  font-family: Inter;
+  font-weight: 700;
+}
+
+.barChcircle {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 40px;
+  background-color: #ea0404;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.barCHinnerCircle {
+  background-color: #fdfafa;
+  width: 0.5rem;
+  height: 0.55rem;
+  border-radius: 40px;
+}

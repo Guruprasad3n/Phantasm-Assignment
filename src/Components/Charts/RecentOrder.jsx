@@ -14,17 +14,17 @@ function RecentOrder() {
             <div className="vertical"></div>
             </div>
             <div className="mainCirclePo">
-              <div className="rightCircle" style={{ backgroundColor: "red" }}>
+              <div className="rightCircle" style={{ backgroundColor: "#2581BF" }}>
                 <div className="rightInnerCircle"></div>
               </div>
             </div>
             <div className="mainCirclePo1">
-              <div className="rightCircle1" style={{ backgroundColor: "red" }}>
+              <div className="rightCircle1" style={{ backgroundColor: "#2581BF" }}>
                 <div className="rightInnerCircle1"></div>
               </div>
             </div>
             <div className="mainCirclePo2">
-              <div className="rightCircle2" style={{ backgroundColor: "red" }}>
+              <div className="rightCircle2" style={{ backgroundColor: "#2581BF" }}>
                 <div className="rightInnerCircle2"></div>
               </div>
             </div>

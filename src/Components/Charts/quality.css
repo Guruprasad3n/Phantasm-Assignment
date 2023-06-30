@@ -1,0 +1,40 @@
+.qualityMain {
+  display: flex;
+  justify-content: end;
+  column-gap: 20px;
+}
+.qualityChildMain{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.qualityChild{
+    display: flex;
+    align-items: center;
+    /* line-height: 25px; */
+    gap: 20px;
+}
+.border{
+    /* border: 1px solid red; */
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+background:#FCFCFC;
+box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.10);
+
+}
+.qNub {
+  color: #2d3845;
+  font-size: 2rem;
+  font-family: Inter;
+  font-weight: 700;
+}
+.qQualit {
+  color: #979797;
+  font-size: 1rem;
+  font-family: Inter;
+}
+

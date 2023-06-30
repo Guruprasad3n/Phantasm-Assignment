@@ -1,5 +1,5 @@
 import "./pieChart.css";
-import { PieChart, Pie, Cell } from "recharts";
+import { PieChart, Pie, Cell, Tooltip } from "recharts";
 
 const data = [
   { name: "Group A", value: 300 },
@@ -11,7 +11,9 @@ function PieChartApp() {
     <>
       <div className="pieChartMain">
         <div className="pieChild">
-          <p className="pieHead" style={{marginBottom:'2.5rem'}}>Product Details</p>
+          <p className="pieHead" style={{ marginBottom: "2.5rem" }}>
+            Product Details
+          </p>
           <div
             style={{
               width: "100%",
@@ -71,7 +73,7 @@ function PieChartApp() {
               </div>
             </div>
             <div className="headCircle">
-              <div className="circle" style={{backgroundColor:"red"}}>
+              <div className="circle" style={{ backgroundColor: "red" }}>
                 <div className="innerCircle"></div>
               </div>
               <div
@@ -109,6 +111,7 @@ function PieChartApp() {
                 />
               ))}
             </Pie>
+            <Tooltip />
           </PieChart>
         </div>
       </div>

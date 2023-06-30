@@ -1,5 +1,6 @@
 import BarChartApp from "../Components/Charts/BarChart";
 import PieChartApp from "../Components/Charts/PieChart";
+import Quality from "../Components/Charts/Quality";
 import RecentOrder from "../Components/Charts/RecentOrder";
 import Layout from "../Components/Layout";
 function Dashboard() {
@@ -12,6 +13,7 @@ function Dashboard() {
               gap: "15px",
             }} >
           {/* <h1>Dashboard</h1> */}
+          <Quality/>
           <div
             style={{
               display: "flex",

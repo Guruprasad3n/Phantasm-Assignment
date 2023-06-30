@@ -26,13 +26,9 @@
   font-size: 0.875rem;
   font-family: Inter;
 }
-.vertical {
-  border-left: 1px solid green;
-  height: 8rem;
-}
 .mainCirclePo {
   position: absolute;
-  top: 26.4%;
+  top: 53.8%;
   left: 66%;
 }
 .rightCircle {
@@ -51,17 +47,19 @@
   height: 0.75rem;
   border-radius: 40px;
 }
-.mainVartical{
+.mainVartical {
   position: absolute;
-  top: 28%;
+  top: 55%;
 }
-.vertical{
+.vertical {
   position: relative;
+  border-left: 1px solid green;
+  height: 8rem;
 }
 
 .mainCirclePo1 {
   position: absolute;
-  top: 34.2%;
+  top: 61.5%;
   left: 66.1%;
 }
 .rightCircle1 {
@@ -83,7 +81,7 @@
 
 .mainCirclePo2 {
   position: absolute;
-  top: 41.5%;
+  top: 69.3%;
   left: 66.1%;
 }
 .rightCircle2 {

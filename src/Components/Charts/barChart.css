@@ -46,10 +46,22 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  top: -23%;
 }
 .barCHinnerCircle {
   background-color: #fdfafa;
   width: 0.5rem;
   height: 0.55rem;
   border-radius: 40px;
+}
+
+.proCirtSmall{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.monthName{
+  color: #979797;
+font-size: 0.875rem;
+font-family: Inter;
 }

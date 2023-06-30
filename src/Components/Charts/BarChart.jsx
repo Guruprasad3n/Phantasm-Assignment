@@ -79,19 +79,32 @@ function BarChartApp() {
             <span style={{ color: "#3CCF95" }}>+23%</span> than last month{" "}
           </p>
         </div>
-        <div>
-        <div className="barChcircle">
-                <div className="barCHinnerCircle"></div>
-              </div>
+        <div className="proCirtSmall">
+          <div className="barChcircle">
+            <div className="barCHinnerCircle"></div>
+          </div>
+         <div>
+          <p  className="monthName"> Last Month</p>
+          <p> 123,456</p>
+         </div>
+        </div>
+        <div className="proCirtSmall"  >
+          <div className="barChcircle" style={{backgroundColor:"#2F4C8F"}}>
+            <div className="barCHinnerCircle"></div>
+          </div>
+         <div>
+          <p className="monthName"> Current Month</p>
+          <p> 123,456</p>
+         </div>
         </div>
       </div>
       <div className="barChartChild2">
-       <div className="rightDigSele">
-        <div className="date">December 2021</div>
-       <select className="selec" name="" id="" placeholder="Month">
-         <option value="">Month</option>
-        </select>
-       </div>
+        <div className="rightDigSele">
+          <div className="date">December 2021</div>
+          <select className="selec" name="" id="" placeholder="Month">
+            <option value="">Month</option>
+          </select>
+        </div>
         <BarChart
           width={700}
           height={300}
